@@ -17,3 +17,34 @@
 14. Найти третью цифру числа или сообщить, что её нет
 */
 
+//0. Вывести квадрат числа
+
+int MyDouble(int n)
+{
+    n = n*n;
+    return n;
+}
+
+int b = 5;
+Console.WriteLine(MyDouble(b));
+
+//1. По двум заданным числам проверять является ли первое квадратом второго
+
+void MyScuare(int a, int b)
+{
+    if(a == b*b)
+    {   
+        Console.WriteLine($"{a} является квадратом {b}");
+    }
+    else
+    {
+        Console.WriteLine($"{a} не является квадратом {b}");
+    }
+
+}
+
+int n = 25;
+int d = 5;
+
+MyScuare(n, d);
+
