@@ -48,8 +48,6 @@ void MyScuare(int a, int b)
 
 }
 
-// нужно как-то  Console.WriteLine из тела метода убрать... у меня ошибки выдаёт
-
 int n = 25;
 int d = 5;
 
@@ -70,8 +68,6 @@ void MaxMin(int a, int b)
 }
 
 MaxMin(1, 3);
-
-//и здесь тоже.
 
 // 3. По заданному номеру дня недели вывести его название
 
@@ -101,12 +97,12 @@ Console.WriteLine(m(1, 2, 3));
 //5. Написать программу вычисления значения функции y=f(a)
 // f = sin
 
-double func(int num)
+double f(double num)
 {
     double result = Math.Sin(num);
     return result;
 }
 
-int a = 30;
-double y = func(a);
+double a = 30;
+double y = f(a);
 Console.WriteLine(y);
